@@ -1,0 +1,268 @@
+<!-- TODO 1: Create the HTML Boilerplate -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title> 
+    <style>
+       
+        
+        .header{
+            font-family: Montserrat;
+            text-align: center;
+            font-size: large;
+            background-color: rgb(192, 156, 156);
+        }
+        .caption{
+            
+            font-family: Montserrat;
+            font-size: 50px;
+            padding-top:60px ;
+            margin-left: 20px;
+           
+        }
+        img{
+            height: 400px;
+            width: 400px;
+        }
+        .web1{
+            display: inline-block;
+            margin-left: 30px;
+        }
+        .web2{
+            display: inline-block;
+        }
+        .web3{
+            display: inline-block;
+        }
+        .linkname{
+            text-align: center;
+            
+        }
+        .info{
+            margin-left: 30px;
+        }
+        nav{
+            font-family: Montserrat;
+            gap: 20px;
+            font-size: x-large;
+            padding: 30px;
+            list-style: none;
+           color:burlywood;
+        }
+        
+        .navbar{
+           display: flex;
+           gap: 20px;
+
+           padding-right: 20px;
+           
+        }
+        
+        nav a{
+            color:black;
+            text-decoration: none;
+        }
+        .navbar a:hover{
+            color:whitesmoke;
+        }
+        .myself{
+            border-radius: 30%;
+            height: 400px;
+            width: 500px;
+            margin-right: 50px;
+            float: right;
+
+        }
+        .box{
+            margin-top: 20px;
+            font-size: 50px;
+            font-family: Montserrat;
+            margin-bottom: 30px;
+            height: 80vh;
+            padding-top: 70px;
+            background-image: url(assets/images/back-img.webp);
+            color:whitesmoke
+        }
+        h1{
+            font-size: xxx-large;
+        }
+        h4{
+            font-size: 30px;
+        }
+       p{
+        font-size: xx-large;
+       
+       }
+       li{
+        font-size: xx-large;
+       }
+       footer{
+        display: flex;
+        flex-direction: row-reverse;
+       
+        font-size: large;
+        padding: 10px;
+       background-color:  rgb(192, 156, 156);
+       }
+       footer a{
+        color:black;
+       }
+       footer a:hover{
+        color:white;
+       }
+       .resume{
+        font-size: larger;
+        font-family: Montserrat;
+        background-image: url(assets/images/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg);
+        
+       }
+       .resimg{
+        height: 200px;
+        width: 200px;
+        margin-left: 50px;
+        margin-top: 0px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .resume a{
+        color: white;
+       
+       }
+       .resume h2{
+        color: white;
+       }
+       .text{
+        font-size: x-large;
+        gap: 10px;
+        margin-left: 30px;
+       }
+       .resume a:hover{
+        color: black;
+       }
+       .logo{
+        height: 100px;
+        width: 100px;
+        margin-top: 20px;
+       }
+       .Skills{
+        background-image: url(assets/images/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg);
+        color: white;
+       }
+       .Projects{
+        background-image: url(assets/images/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg);
+        color: white;
+        height: 100vh;
+       }
+       .Projects a{
+        color: white;
+
+       }
+       .Projects a:hover{
+        color: black;
+       }
+      
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat&family=Libre+Baskerville&family=Montserrat&family=Poppins:ital,wght@0,300;1,300;1,400;1,500&family=Roboto+Condensed:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+</div>
+<div class="header">
+    <nav>
+      
+       <div class="navbar">
+        
+       <a class="navbar" href="#Home">Home</a>
+       <a class="navbar" href="#Skills">Skills</a>
+       <a class="navbar" href="#Projects">Projects</a>
+       <a class="navbar" href="#Resume">Resume</a>
+       <a class="navbar" href="#Contact">Contact</a>
+       
+      </div>
+
+      </nav>
+      </div>
+   
+    <section id="Home">
+    <div class="Home">
+    <div class="box">
+    
+    <img class="myself"  src="assets/images/desik.jpeg">
+    <div class="info">
+    <h4>Hello!</h4>
+    <h1>I'm Sreekar Desik</h1>
+    <p>I'm a CSE student studying BE 3rd Year at Dayananda Sagar Academy of Technology and Management.</p>
+    </div>
+    </div>
+    </div>
+    </section>
+   
+    <hr/>
+    <section id="Projects">
+    <div class="Projects">
+        <h2 class="caption">Projects:</h2>
+    <div class="web1">
+    <h3 class="linkname"><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
+    <img src="./assets/images/Movie ranking ss.png" height="200" alt="Movie ranking"/>
+    </div>
+    <div class="web2">
+    <h3 class="linkname"><a href="./public/birthday-invite.html">Birthday-invite Project</a></h3>
+    <img src="./assets/images/birthday-invite ss.png" height="200" alt=" birthday-invite"/>
+    </div>
+    <div class="web3">
+        <h3 class="linkname"><a href="./public/motivation meme.html">Motivation Meme Project </a></h3>
+    <img src="assets/images/motiv.png" height="200" width="200" alt=" motivational-meme"/>
+
+    </div>
+    
+    </div>
+    </section>
+    <hr/>
+    <section id="Skills">
+    <div class="Skills">  
+    <h2 class="caption">Key Skills:</h2>
+    <ul>
+        <li>C Programming</li>
+        <li>C++ Programming</li>
+        <li>Java Programming</li>
+        <li>Python Programming</li>
+        <li>R Programming</li>
+        <li>Web Development</li>
+    </ul>
+   </div>
+    </section>
+    <hr/>
+    <section id="Resume">
+    <div class="resume">
+        <h2 class="caption">My Resume:</h2>
+        <img class="resimg"src="assets/images/resume.jpg"/>
+        
+        <a class="text" href="public/sreekar's cv.pdf">Download Resume</a>
+        <hr/>
+        <a class="text" href="./public/about.html">About me</a>
+        <a class="text" href="/public/contact.html">Contact me</a>
+    </div>
+    </section>
+    <hr/>
+    <footer><a href="public/copyright.html">Copyright@Sreekar Desik</a> </footer>
+
+</body>
+</html>
+<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
+
+<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
+
+<!-- TODO 4: Add titles/subtitles etc. -->
+
+<!-- TODO 5: Add a link to the project pages -->
+
+<!-- TODO 6: Add images to show the project previews
+HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
+
+<!-- TODO 7: Add the Contact Me and About Me page links -->
